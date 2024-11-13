@@ -3,8 +3,7 @@
 
 - 전역 상태관리
 
-  - ~~context와 reduxRTK 중 고민 했지만 프로젝트의 규모가 크지 않음을 고려하여 context로 결정했습니다.~~
-  - ~~recoil과 react query의 조합도 생각했지만 미숙하여 보류 ( 추후 리팩토링 가능성 있음 )~~
+  
   - 큰 프로젝트 에서 많이 사용 하는 Redux-toolkit을 경험해보고 싶어 도입하였고 redux-toolkit 사용 시 사람들이 불편함을 느끼는 비동기 처리를 react query를 도입하여 해결했습니다.
 
 - CSS - in - JS
